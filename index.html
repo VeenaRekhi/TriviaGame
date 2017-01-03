@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Trivial Trivia Quiz Game</title>
+
+    <!-- Added link to the jQuery Library -->
+    <script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+    <!-- Added a link to Ajax-->
+
+    <!-- Added a link to Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Added a link to -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    </head>
+
+
+<body>
+
+    <div class="container" id="opening">
+    <!-- Header starts here-->
+    <div id="mainHead" class="opening col-md-12 col-md-offset-0.5 text-center">
+
+        <div class="row">
+            New Year's Trivial Trivia
+            <h2> Welcome to the New Year's Total Trivia!!
+             ---Refresh your knowledge with few exciting facts!!</h2>
+        </div>
+        
+        <div id="timer" class="row-2 col-md-4 col-md-offset-1 text-center">
+                <h1 class="timeRemaining"><strong>
+                TIME: <span id="elapsedTime"></span></strong></h1>
+                <p id="timesUp"> </p>
+        </div>
+        <div id="gameOver" class="row-3 col-md-4 col-md-offset-1">
+            <ul>
+                <li>SCORES:</li>
+                <li>Correct:<span id="co">#</span></li> 
+                <li>Wrong:<span id="wro">#</span></li> 
+                <li>Unattempted:<span id="una">#</span></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+ 
+    
+    <div id="startGame" class="container">
+        <!-- /.container-fluid -->
+        <div class="col-md-10 col-md-offset-1 text-center">
+               
+            <h1> Answer these questions by ticking any one choice given below! </h1>	
+          
+            <div id="quiz" class=" text-center"	>
+                
+                <p id="question"></p>
+
+              <div class="buttons">
+                <button id="btn0" class="quiz"><span id="choice0"></span></button>
+                <button id="btn1" class="quiz"><span id="choice1"></span></button>
+                <button id="btn2" class="quiz"><span id="choice2"></span></button>
+                <button id="btn3" class="quiz"><span id="choice3"></span></button>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <div  id="gameQuestions" class="container">
+        <div class="col-md-10 col-md-offset-1 text-center">
+            <h2 id="rightWrong">  </h2>
+            <p id="rightAnswer">  </p>
+            <h3 id="done"> </h3>
+        </div>
+    </div>
+
+        <div class="col-md-10 col-md-offset-1 text-center">
+            <button id="reset" type="restart" onclick="restart()" value="RESTART">RESTART
+            </button>
+        </div>
+</body>
+
+	<script type="text/javascript" src="./assets/javascript/app.js" >
+	</script>
+
+
+</html>
+

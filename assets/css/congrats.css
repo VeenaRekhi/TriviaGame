@@ -1,0 +1,63 @@
+* {
+	box-sizing: border-box;
+    }
+
+body {
+	   background-image: url("../images/wisemen.gif");
+	   display: inline-block;
+	   repeat: no-repeat;
+       background-size: cover;
+       min-height: 100%;
+       width: 100%;
+	   font-family: 'Georgia', Times, Times New Roman, serif;
+	   font-size: 16px;
+	   line-height: 20px;
+	   margin: 3% auto;
+	}
+
+h1  {
+	    clear: both;
+	    float: left;
+	    position: relative;
+	    line-height: 50px;
+	    font-size: 36px;
+	    font-family: 'Georgia', Times, Times new Roman, serif;
+        text-shadow: 8px 8px 12px blue;
+	    margin: 2% auto;
+	    padding-bottom: 20px;
+    }
+
+h2  {
+	    clear: both;
+	    float: left;
+	    position: relative;
+	    font-size: 32px;
+	    font-family: 'Georgia', Times, Times new Roman, serif;
+        text-shadow: 8px 8px 12px blue;
+	    margin: 2% auto;
+    }
+
+h1, h2 {
+    
+    clear: both;
+	float: left;
+	position: relative;
+	display: inline-block;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 10px;
+	border: none;
+	font: sans-serif;
+	color: rgba(255,255,255,1);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    white-space: pre;
+    text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de ;
+    -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+
+}
+	

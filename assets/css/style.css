@@ -1,0 +1,195 @@
+* {
+	box-sizing: border-box;
+    }
+
+body {
+	   background-image: url("../images/giphy.gif");
+	   repeat: no-repeat;
+       background-size: cover;
+       min-height: 100%;
+	   font-family: 'Georgia', Times, Times New Roman, serif;
+	   font-size: 16px;
+	   line-height: 20px;
+	   margin: 3% auto;
+	}
+
+h1, h2, h3, h4 {
+        font-family: 'Georgia', Times, Times new Roman, serif;
+        color: white
+    }
+
+h1  {
+	    font-size: 25px;
+	    line-height: 50px;
+	    padding-bottom: 20px;
+    }
+
+h2, h3  {
+	    font-size: 22px;
+    }
+
+
+span  {
+	    font-size: 20px;
+	    line-height: 30px;
+	    
+	  }
+
+#mainHead, #heading  {
+	font-size: 28px;
+	line-height: 35px;
+	padding: 5 5 5 5;
+	margin: 1% auto;
+	color: white; 
+	float: left;
+	position: relative;
+}
+
+.row  {
+	  color: white;
+      text-decoration: none;
+      text-shadow: 8px 8px 12px red;
+}
+
+
+
+#timer, .timeRemaining  {
+	color: red; 
+	font-size: 24px; 
+	opacity: 1;
+	float: left;
+	position: relative;
+}
+
+#gameOver , ul {
+	display: inline-block;
+    font-size: 24px;
+	line-height: 35px;
+	color: red;
+	float: right;
+	position: relative;
+}
+
+
+
+#startGame {
+	background-color: ;
+	padding: 0 5 5 5;
+	margin: 3% auto;
+	font-size: 28px;
+	line-height: 35px;
+}
+
+p  {
+	font-size: 26px;
+	line-height: 30px;
+	padding: 5 5 5 5;
+	text-shadow: 8px 8px 12px red;
+	margin: 2% auto;
+	color: blue;
+	font-family: 'Georgia', Times, Times new Roman, serif;
+}
+
+#rightAnswer  {
+	color: red;
+	text-shadow: 8px 8px 12px blue;
+}
+
+.quiz  {
+	width: 40%;
+	display: inline-block;
+	cursor: pointer;
+	font-size: 26px;
+	line-height: 35px;
+	padding: 5 5 0 5;
+	margin: 1% auto;
+	background-color: white; 
+    color: red; 
+    border-radius: 4px;
+    border: 2px solid orange;
+	font-family: 'Georgia', Times, Times new Roman, serif;
+}
+
+.quiz:hover  {
+	color: blue;
+	background-color: #f44336;
+	-webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+#reset  {
+	width: 30%;
+	height: 60px;
+	display: inline-block;
+	margin: 3%;
+	padding: 10 10 10 10;
+	cursor: pointer;
+	background-color: white; 
+    color: red; 
+    border: 2px solid #f44336;
+    border-radius: 4px;
+    border: 2px solid orange;
+	font-size: 26px;
+	line-height: 35px;
+	margin: 3% auto;
+}
+
+#reset:hover  {
+	color: blue;
+	background-color: Red;
+	-webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+/*.row  {
+	display: inline-block;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 10px;
+	border: none;
+	font: sans-serif;
+	color: rgba(255,255,255,1);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    white-space: pre;
+    text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de ;
+    -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+
+}
+
+.button:hover {
+  text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;
+}
+#start {
+	width: 30%;
+	height: 60px;
+	display: inline-block;
+	margin: 3%;
+	padding: 10 10 10 10;
+	cursor: pointer;
+	background-color: white; 
+    color: red; 
+    border: 2px solid #f44336;
+    border-radius: 4px;
+    border: 2px solid orange;
+	font-size: 26px;
+	line-height: 35px;
+	margin: 3% auto;
+}
+
+#start:hover  {
+	color: blue;
+	background-color: Red;
+	-webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+
+
+
+	    
+

@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Final Scores!!</title>
+ <link rel="stylesheet" type="text/css" href="assets/css/finalscores.css">
+ </head>
+<body>
+<form name="finalscores" class="row-5">
+    <h1><strong>First Attempt Complete!</strong></h1>
+    
+   
+    <div id="gameOver" class="row-4 col-md-10 col-md-offset-1 text-center">
+            <ul> Here are your<br>
+                <li>SCORES:</li>
+                <li>Correct:<span href="index.html" id="co">#</span></li> 
+                <li>Wrong:<span id="wro">#</span></li> 
+                <li>Unattempted:<span id="una">#</span></li>
+            </ul>
+        </div></a>
+    <h2> Try Again!!!</h2>
+    
+
+	<script type="text/javascript">
+
+		document.getElementById("co").innerHTML = localStorage.getItem("correct");
+		document.getElementById("wro").innerHTML = localStorage.getItem("wrong");
+		document.getElementById("una").innerHTML = localStorage.getItem("unAttempted")
+
+        localStorage.removeItem("correct");
+        localStorage.removeItem("wrong");        
+        localStorage.removeItem("unAttempted");
+
+        var wait = setTimeout("self.close();",2000);
+        
+	</script>
+
+</form>
+</body>
+
+
+</html>
