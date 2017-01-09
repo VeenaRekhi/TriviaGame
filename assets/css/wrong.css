@@ -15,7 +15,7 @@ body {
 	   margin: 1% auto;
 	}
 
-#correctAnswer h1  {
+h1  {
 	    clear: both;
 	    float: left;
 	    position: relative;
@@ -27,7 +27,7 @@ body {
 	    padding-bottom: 20px;
     }
 
-#correctAnswer h2  {
+h2  {
 	    clear: both;
 	    float: left;
 	    position: relative;
@@ -37,7 +37,7 @@ body {
 	    margin: 2% auto;
     }
 
-#correctAnswer h1, h2 {
+h1, h2 {
     
     clear: both;
 	float: left;

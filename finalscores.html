@@ -20,6 +20,9 @@
         </div></a>
     <h2> Try Again!!!</h2>
     
+    <input id="continue" type="submit" onclick="resume()" value="continue to play">CONTINUE </input>
+    
+    <input id="reset" type="submit" onclick="restart()" value="RESTART">RESTART</input>
 
 	<script type="text/javascript">
 
@@ -31,12 +34,15 @@
         localStorage.removeItem("wrong");        
         localStorage.removeItem("unAttempted");
 
-        var wait = setTimeout("self.close();",2000);
+
+        var wait = setTimeout("self.close();",6000);
         
 	</script>
 
 </form>
 </body>
 
+<script type="text/javascript" src="./assets/javascript/app.js">
+    </script>
 
 </html>

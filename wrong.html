@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Congratulation!!</title>
+ <link rel="stylesheet" type="text/css" href="assets/css/congrats.css">
+ </head>
+<body>
+<form name="oopsWrong" class="row-4">
+  <h1><strong>OOPS! You Are Wrong!</strong></h1>
+
+   <h2><strong>You have selected the wrong answer!!</strong></h2>
+   
+   <h2> Continue to answer rest of the questions!</h2>
+
+   <input id="continue" type="submit" onclick="resume()" value="continue to play">CONTINUE </input>
+
+   <input id="reset" type="submit" onclick="restart()" value="RESTART">RESTART</input>
+ 
+
+	<script type="text/javascript">
+		var wait = setTimeout("self.close();",6000);
+	</script>
+
+</form>
+</body>
+
+<script type="text/javascript" src="./assets/javascript/app.js" >
+	</script>
+
+</html>
